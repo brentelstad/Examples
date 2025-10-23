@@ -1,0 +1,4 @@
+
+kubernetes is the operating system of the cloud.
+kubernetes is a bunch of virtual machines who are able to communicate properly with eachother and to divide their workload.
+
