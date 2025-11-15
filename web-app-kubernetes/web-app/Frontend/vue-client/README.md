@@ -1,5 +1,7 @@
 # vue-client
 
+NOTE: Needs to be ran with Node 24.x as there is a bug in Node 25.x
+
 ## Project setup
 ```
 npm install
