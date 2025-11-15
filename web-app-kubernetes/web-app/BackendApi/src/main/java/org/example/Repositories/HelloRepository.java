@@ -3,9 +3,9 @@ package org.example.Repositories;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class HelloWorldRepository {
+public class HelloRepository {
 
-	public  String sayHello() {
+	public String hello() {
 		return "Hello World!";
 	}
 }
