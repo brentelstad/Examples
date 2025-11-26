@@ -5,21 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31224d82-bf04-4759-bb53-36c3df19a61c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../java/SpringBoot/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/SpringBoot/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/SpringBoot/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/SpringBoot/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/SpringBoot/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/SpringBoot/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/SpringBoot/src/main/java/org/example/Application.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/SpringBoot/src/main/java/org/example/Controllers/HelloWorld.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/SpringBoot/src/main/java/org/example/Repositories/HelloWorldRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java/SpringBoot/src/main/java/org/example/Services/HelloWorldService.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/BackendApi/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BackendApi/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BackendApi/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/Chart.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/Chart.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chart/values.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/chart/values.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -48,30 +51,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.build.executor&quot;: &quot;Run&quot;,
-    &quot;npm.dev.executor&quot;: &quot;Run&quot;,
-    &quot;npm.serve.executor&quot;: &quot;Run&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/brentelstad/Workspace/Examples/web-app-kubernetes/web-app/SpringBootApi/src/main/java/org/example/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Docker.BackendApi/Dockerfile.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/brentelstad/Workspace/Examples/web-app-kubernetes/web-app",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.build.executor": "Run",
+    "npm.dev.executor": "Run",
+    "npm.serve.executor": "Run",
+    "onboarding.tips.debug.path": "/Users/brentelstad/Workspace/Examples/web-app-kubernetes/web-app/SpringBootApi/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -82,7 +87,19 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.serve">
+  <component name="RunManager" selected="Docker.BackendApi/Dockerfile">
+    <configuration name="BackendApi/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="BackendApi/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile" />
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/frontend/vue-client/package.json" />
       <command value="run" />
@@ -114,12 +131,14 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Docker.BackendApi/Dockerfile" />
       <item itemvalue="npm.build" />
       <item itemvalue="npm.dev" />
       <item itemvalue="npm.serve" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Docker.BackendApi/Dockerfile" />
         <item itemvalue="npm.serve" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
@@ -145,6 +164,8 @@
       <workItem from="1763159208128" duration="128000" />
       <workItem from="1763159339321" duration="100000" />
       <workItem from="1763215406882" duration="373000" />
+      <workItem from="1763309989422" duration="1475000" />
+      <workItem from="1763810534104" duration="2722000" />
     </task>
     <servers />
   </component>
